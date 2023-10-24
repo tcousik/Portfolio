@@ -6,6 +6,9 @@ import ReorderIcon from '@material-ui/icons/Reorder'
 const Navbar = () => {
     const [expandNavbar, setExpandNavbar] = useState(false);
     const location = useLocation();
+    const isProjectsOrExperience = location.pathname.includes('/projects') || location.pathname.includes('/experience');
+
+    const navbarClasses = `navbar ${isProjectsOrExperience ? 'with-space' : ''} navbar`;
 
     useEffect(() => {
         setExpandNavbar(false);

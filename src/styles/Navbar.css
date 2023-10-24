@@ -2,7 +2,12 @@
     width: 100%;
     height: 100px;
     background: #21325e;
-    position: fixed;
+    margin-bottom: 0px;
+    position: sticky;
+}
+
+with-space {
+    padding-bottom: 200px;
 }
 
 .links {
