@@ -4,10 +4,12 @@ import dash from './assets/dash.jpg'
 export const projectList = [
     {
         name: "E-commerce App",
-        image: ecom
+        image: ecom,
+        skills: "React"
     },
     {
         name: "Dashboard App",
-        image: dash
+        image: dash,
+        skills: "MERN, Redux"
     }
 ]
