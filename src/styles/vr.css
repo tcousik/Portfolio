@@ -59,3 +59,12 @@ li {
     height: auto;
     padding: 20px;
 }
+
+.alley {
+    display: block;
+    margin: 20px auto;
+    /* Center the image */
+    max-width: 80%;
+    /* Adjust the width as needed */
+    height: auto;
+}

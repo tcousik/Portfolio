@@ -2,6 +2,10 @@ import React from 'react'
 import "../styles/vr.css"
 import VR1 from '../assets/VR1.png'
 import VR2 from '../assets/VR2.png'
+import Ball from '../assets/ball.jpg'
+import Pins from '../assets/pins.jpg'
+import Alley from '../assets/alley.png'
+
 
 const VRProject = () => {
     return (
@@ -72,7 +76,12 @@ const VRProject = () => {
 
                 <section>
                     <h2>Concept Art</h2>
+                    <div className="image-container">
+                        <img src={Alley} alt='alley' className='alley' />
+                    </div>
 
+                    <img src={Ball} alt='ball' className='small-image' />
+                    <img src={Pins} alt='pins' className='small-image' />
                 </section>
 
                 <section>
