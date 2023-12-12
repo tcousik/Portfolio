@@ -6,14 +6,13 @@ import Ball from '../assets/ball.jpg'
 import Pins from '../assets/pins.jpg'
 import Alley from '../assets/alley.png'
 
-
 const VRProject = () => {
     return (
         <div>
             <h1 className='title'>CSCI 4570 (AR/VR) - Final Project Report</h1>
             <h2 className='title'>Demo: <a href="https://www.youtube.com/watch?v=OQQuCyN71ks">Link Here</a></h2>
 
-            <body>
+            <body className='vr-body'>
                 <section className='title'>
                     <h2>Objective</h2>
                     <p>The objective of this project was to develop a simple yet engaging bowling game using the Unity game development engine. The game aims to provide users with an immersive experience, allowing them to easily interact with a virtual bowling environment.</p>

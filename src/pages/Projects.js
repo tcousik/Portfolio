@@ -1,7 +1,6 @@
 import React from 'react'
 import ProjectItem from '../components/ProjectItem'
 import { projectList } from '../ProjectList'
-
 import "../styles/Projects.css"
 
 const Projects = () => {
