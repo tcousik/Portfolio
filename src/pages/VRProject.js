@@ -15,6 +15,11 @@ const VRProject = () => {
                 </section>
 
                 <section>
+                    <h2>Screenshots</h2>
+
+                </section>
+
+                <section>
                     <h2>Technical Highlights</h2>
                     <p>The key technical features of this game include realistic ball physics, accurate pin interactions, and an accurate scorekeeping system.</p>
 
@@ -71,10 +76,6 @@ const VRProject = () => {
                     <p>I added a website link and added more details to the technical focus. Since I’m not in CSCI 5570, I’m not required to include a research component.</p>
                 </section>
 
-                <section>
-                    <h2>Video: Final Project Video</h2>
-
-                </section>
             </body>
         </div >
     )

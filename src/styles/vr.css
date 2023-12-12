@@ -1,7 +1,50 @@
-.title {
-    text-align: center;
+/* styles/vr.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    /* Set your desired background color */
 }
 
-.button {
-    margin: 0 auto;
+.title {
+    color: #333;
+    /* Set your desired title color */
+    text-align: center;
+    margin: 20px 0;
 }
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #007bff;
+    /* Set your desired heading color */
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #007bff;
+    /* Set your desired link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul,
+ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Add additional styles for your specific needs */
