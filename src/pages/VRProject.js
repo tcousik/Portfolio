@@ -11,24 +11,24 @@ const VRProject = () => {
     return (
         <div>
             <h1 className='title'>CSCI 4570 (AR/VR) - Final Project Report</h1>
-            <h2 className='title'>Tejas Cousik</h2>
-            <p>Demo: <a href="https://www.youtube.com/watch?v=OQQuCyN71ks">Link Here</a></p>
+            <h2 className='title'>Demo: <a href="https://www.youtube.com/watch?v=OQQuCyN71ks">Link Here</a></h2>
+
             <body>
-                <section>
+                <section className='title'>
                     <h2>Objective</h2>
                     <p>The objective of this project was to develop a simple yet engaging bowling game using the Unity game development engine. The game aims to provide users with an immersive experience, allowing them to easily interact with a virtual bowling environment.</p>
                 </section>
 
-                <section>
-                    <h2>Screenshots</h2>
+                <section className='title'>
+                    <h2 >Screenshots</h2>
                     <div className="image-container">
                         <img src={VR1} alt='vr1' className='small-image' />
                         <img src={VR2} alt='vr1' className='small-image' />
                     </div>
                 </section>
 
-                <section>
-                    <h2>Technical Highlights</h2>
+                <section className='title'>
+                    <h2 >Technical Highlights</h2>
                     <p>The key technical features of this game include realistic ball physics, accurate pin interactions, and an accurate scorekeeping system.</p>
 
                     <ul>
@@ -40,8 +40,8 @@ const VRProject = () => {
                     </ul>
                 </section>
 
-                <section>
-                    <h2>List of Complete Features from Proposal</h2>
+                <section className='title'>
+                    <h2 >List of Complete Features from Proposal</h2>
                     <ul>
                         <li>Created a bowling alley with a lane, pins, and a ball with realistic dimensions.</li>
                         <li>The controls are intuitive, allowing the player to easily grab the bowling ball and launch them towards the pins.</li>
@@ -50,7 +50,7 @@ const VRProject = () => {
                     </ul>
                 </section>
 
-                <section>
+                <section className='title'>
                     <h2>List of Missing Features from the Proposal</h2>
                     <ul>
                         <li>There isn’t a leaderboard system to keep track of scores. The game displays the score for each frame but doesn’t provide a final score. There was added complexity here due to how strikes and spares have special conditions for scoring.</li>
@@ -58,8 +58,8 @@ const VRProject = () => {
                     </ul>
                 </section>
 
-                <section>
-                    <h2>Measuring Project Success</h2>
+                <section className='title'>
+                    <h2 >Measuring Project Success</h2>
                     <ol>
                         <li>Realism: How closely the game simulates real-world bowling physics and interactions.</li>
                         <li>User Engagement: Player enjoyment and interaction level within the game environment.</li>
@@ -67,25 +67,26 @@ const VRProject = () => {
                     </ol>
                 </section>
 
-                <section>
-                    <h2>Future Considerations</h2>
+                <section className='title'>
+                    <h2 >Future Considerations</h2>
                     <p>In future iterations, an area for improvement involves enhancing the auditory experience within the game. I attempted to integrate sounds like the ball rolling and pin collisions, but challenges arose in managing potential conflicts with the background music. Resolving these sound-related issues is a priority to create a more immersive and engaging gameplay atmosphere.</p>
 
                     <p>Also, I would spend time enriching the rest of the environment. This includes adding interactive elements to the lobby, providing players with opportunities to explore and engage beyond the bowling activity.</p>
                 </section>
 
-                <section>
-                    <h2>Concept Art</h2>
+                <section className='title'>
+                    <h2 >Concept Art</h2>
                     <div className="image-container">
                         <img src={Alley} alt='alley' className='alley' />
                     </div>
-
-                    <img src={Ball} alt='ball' className='small-image' />
-                    <img src={Pins} alt='pins' className='small-image' />
+                    <div className="image-container">
+                        <img src={Ball} alt='ball' className='smaller-image' />
+                        <img src={Pins} alt='pins' className='smaller-image' />
+                    </div>
                 </section>
 
-                <section>
-                    <h2>Professor Feedback</h2>
+                <section className='title'>
+                    <h2 >Professor Feedback</h2>
                     <p>I added a website link and added more details to the technical focus. Since I’m not in CSCI 5570, I’m not required to include a research component.</p>
                 </section>
 
