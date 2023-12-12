@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/vr.css"
-
+import VR1 from '../assets/VR1.png'
+import VR2 from '../assets/VR2.png'
 
 const VRProject = () => {
     return (
@@ -16,7 +17,10 @@ const VRProject = () => {
 
                 <section>
                     <h2>Screenshots</h2>
-
+                    <div className="image-container">
+                        <img src={VR1} alt='vr1' className='small-image' />
+                        <img src={VR2} alt='vr1' className='small-image' />
+                    </div>
                 </section>
 
                 <section>

@@ -47,4 +47,15 @@ li {
     margin-bottom: 5px;
 }
 
-/* Add additional styles for your specific needs */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.small-image {
+    width: 45%;
+    /* Adjust the width as needed */
+    height: auto;
+    padding: 20px;
+}
