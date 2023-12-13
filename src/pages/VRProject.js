@@ -5,12 +5,14 @@ import VR2 from '../assets/VR2.png'
 import Ball from '../assets/ball.jpg'
 import Pins from '../assets/pins.jpg'
 import Alley from '../assets/alley.png'
+import Report from '../assets/Report.pdf'
 
 const VRProject = () => {
     return (
         <div>
             <h1 className='title'>CSCI 4570 (AR/VR) - Final Project Report</h1>
             <h2 className='title'>Demo: <a href="https://www.youtube.com/watch?v=OQQuCyN71ks">Link Here</a></h2>
+            <h2 className='title'><a href={Report}>Download Report</a></h2>
 
             <body className='vr-body'>
                 <section className='title'>
@@ -89,9 +91,11 @@ const VRProject = () => {
                     <p>I added a website link and added more details to the technical focus. Since I’m not in CSCI 5570, I’m not required to include a research component.</p>
                 </section>
 
+                <script src="report.js"></script>
             </body>
         </div >
     )
+
 }
 
 export default VRProject
